@@ -5,7 +5,7 @@
 #
 
 
-# 2013-06-29, Szilárd Nemes
+# 2013-06-29, Szil\0xB7rd Nemes
 #
 rm(list = ls()); gc()
 library(foreign)
@@ -158,16 +158,16 @@ par(mar=c(5, 1, 2, 0) + 0.1)
 # 1. Names Main
 plot.window(ylim=c(0, 23), xlim=c(0, 1))
          text(0,  1, 'Falun',                    cex = 1.5, col = 'black', pos = 4)
-         text(0,  3, 'Piteå',                    cex = 1.5, col = 'black', pos = 4)
+         text(0,  3, 'Pite\0xC2',                    cex = 1.5, col = 'black', pos = 4)
          text(0,  5, 'Trelleborg',               cex = 1.5, col = 'black', pos = 4)
          text(0,  7, 'Ortho Center Stockholm ',  cex = 1.5, col = 'black', pos = 4)
          text(0,  9, 'Motola',                   cex = 1.5, col = 'black', pos = 4)
-         text(0, 11, 'Capio S:t Göran',          cex = 1.5, col = 'black', pos = 4)
-         text(0, 13, 'Hässleholm-Kristianstad ', cex = 1.5, col = 'black', pos = 4)
-         text(0, 15, 'Bollnäs',                  cex = 1.5, col = 'black', pos = 4)
+         text(0, 11, 'Capio S:t G\0x02C6ran',          cex = 1.5, col = 'black', pos = 4)
+         text(0, 13, 'H\0x2030ssleholm-Kristianstad ', cex = 1.5, col = 'black', pos = 4)
+         text(0, 15, 'Bolln\0x2030s',                  cex = 1.5, col = 'black', pos = 4)
          text(0, 17, 'Capio Ortopediska Huset',  cex = 1.5, col = 'black', pos = 4)
          text(0, 19, 'Uddevalla',                cex = 1.5, col = 'black', pos = 4)
-         text(0, 21, 'Falköping',               cex = 1.5, col = 'black', pos = 4)
+         text(0, 21, 'Falk\0x02C6ping',               cex = 1.5, col = 'black', pos = 4)
 
 #############
 # 2. EQ-VAS #

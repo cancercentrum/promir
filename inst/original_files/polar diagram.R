@@ -1,7 +1,7 @@
  rm(list = ls(all = TRUE))
 ### Plaor diagram
 #
-# 2013-06-29, Szilárd Nemes
+# 2013-06-29, Szil\0xB7rd Nemes
 #
 library(fmsb)
 
@@ -11,14 +11,14 @@ setwd('Z:/SHPR/SZILARD/People/Szilard/Index-ci')
 dat <- read.table('polar.txt', header = TRUE, row.names = 1, sep = '\t')
 
 Labels  <- c('Falun',
-             'Capio S:t Göran',
+             'Capio S:t G\0x02C6ran',
              'Trelleborg',
              'Uddevalla',
-             'Bollnäs',
-             'Hässleholm-\nKristianstad',
-             'Falköping',
+             'Bolln\0x2030s',
+             'H\0x2030ssleholm-\nKristianstad',
+             'Falk\0x02C6ping',
              'Motala',
-             'Piteå',
+             'Pite\0xC2',
              'Capio\nOrtopediska Huset',
              'Ortho\nCenter Stockholm')
  tiff(filename = "polar.tif",

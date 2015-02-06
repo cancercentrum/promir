@@ -36,11 +36,11 @@ dat
 setwd('Z:/SHPR/SZILARD/People/Szilard/Improvement Index/Figures')
 Labels  <- c('Falun',
              'Trelleborg',
-             'Enköping',
-             'Hässleholm-\nKristianstad',
+             'Enk\0x02C6ping',
+             'H\0x2030ssleholm-\nKristianstad',
              'Capio Ortopediska \nHuset',
              'Ortho Center \nStockholm',
-             'Aleris Specialvård Motola')
+             'Aleris Specialv\0xC2rd Motola')
 
 
  tiff(filename = "polar.tif",

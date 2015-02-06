@@ -60,11 +60,11 @@ par(mar=c(5, 1, 2, 0.1) + 0.1)
 plot.window(ylim=c(0, 7.5), xlim=c(0, 1))
          text(0,  1, 'Falun',                        cex = 1.75, col = 'black', pos = 4)
          text(0,  2, 'Telleborg',                    cex = 1.75, col = 'black', pos = 4)
-         text(0,  3, 'Enköping',                     cex = 1.75, col = 'black', pos = 4)
+         text(0,  3, 'Enk\0x02C6ping',                     cex = 1.75, col = 'black', pos = 4)
          text(0,  4, 'Hassleholdm-Kristianstad ',    cex = 1.75, col = 'black', pos = 4)
          text(0,  5, 'Capio Ortopediska Huset',      cex = 1.75, col = 'black', pos = 4)
          text(0,  6, 'Ortho Center Stockholm',       cex = 1.75, col = 'black', pos = 4)
-         text(0,  7, 'Aleris Specialvård Motola ',   cex = 1.75, col = 'black', pos = 4)
+         text(0,  7, 'Aleris Specialv\0xC2rd Motola ',   cex = 1.75, col = 'black', pos = 4)
          
 
 

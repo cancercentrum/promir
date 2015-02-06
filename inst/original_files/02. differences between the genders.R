@@ -16,8 +16,8 @@ head(promData)
 
 
 
-females <- filter(promData, kön == 'kvinna')
-  males <- filter(promData, kön != 'kvinna')
+females <- filter(promData, k\0x02C6n == 'kvinna')
+  males <- filter(promData, k\0x02C6n != 'kvinna')
 
 ### EQ-5D index   PASS
 with(females, deltaConf(eq5d0de, eq5d1de, 0.9))

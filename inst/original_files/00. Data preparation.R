@@ -16,13 +16,13 @@ library(dplyr)              # data management
 
 
 ## The PROM Data
-prom <- read.spss('Z:/SHPR/SZILARD/People/Szilard/EQ5D prediction/Data/Dispensär.sav',
+prom <- read.spss('Z:/SHPR/SZILARD/People/Szilard/EQ5D prediction/Data/Dispens\0x2030r.sav',
                  use.value.labels = FALSE,
                     to.data.frame = TRUE,
                      use.missings = to.data.frame)
 
 
-prom <- select(prom, person, sida, kön,
+prom <- select(prom, person, sida, k\0x02C6n,
                     charkat0, smrtvas0,halsvas0,
                     eq10, eq20, eq30, eq40, eq50, eq5d0,
                     eq11, eq21, eq31, eq41, eq51, eq5d1,
@@ -39,7 +39,7 @@ table(prom$charkat1, useNA = 'ifany')
 
 ## The operation data base
 
-oper <- read.spss('Z:/SHPR/SZILARD/People/Szilard/EQ5D prediction/Data/Primäroperation.sav',
+oper <- read.spss('Z:/SHPR/SZILARD/People/Szilard/EQ5D prediction/Data/Prim\0x2030roperation.sav',
                  use.value.labels = FALSE,
                     to.data.frame = TRUE,
                      use.missings = to.data.frame)
@@ -73,12 +73,12 @@ promData <- filter(preData, diagrp ==1,
  dim(promData)
 
 
-promData <- select(promData, klinpri, kön,
+promData <- select(promData, klinpri, k\0x02C6n,
                     charkat0, smrtvas0,halsvas0, smrtvas1,halsvas1,
                     eq10, eq20, eq30, eq40, eq50, eq5d0,
                     eq11, eq21, eq31, eq41, eq51, eq5d1)
 ## remove empty spaces in gender 
-promData$kön  <- factor(gsub(" ", "", promData$kön, fixed = TRUE))
+promData$k\0x02C6n  <- factor(gsub(" ", "", promData$k\0x02C6n, fixed = TRUE))
 ## more than 200 operations
 promData <- promData[promData$klinpri %in% names(which(table(promData$klinpri)>200)), ]
 
